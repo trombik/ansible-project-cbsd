@@ -11,3 +11,7 @@ end
 describe service "cbsdd" do
   it { should be_running }
 end
+
+describe user "trombik" do
+  it { should exist }
+end
