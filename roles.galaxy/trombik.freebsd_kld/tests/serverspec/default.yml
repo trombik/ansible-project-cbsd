@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  roles:
+    - ansible-role-freebsd_kld
+  vars:
+    freebsd_kld:
+      - name: u3g
+      - name: ichsmb
+        load: yes
+        boot: yes

@@ -1,0 +1,10 @@
+---
+cbsd_user: cbsd
+cbsd_group: cbsd
+cbsd_service: cbsdd
+cbsd_workdir: /usr/local/jails
+cbsd_home: /usr/local/cbsd
+cbsd_conf_dir: /usr/local/etc/cbsd
+cbsd_initenv_conf_file: "{{ cbsd_conf_dir }}/initenv.conf"
+cbsd_initenv_conf: ""
+cbsd_profiles: []
