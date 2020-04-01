@@ -1,3 +1,9 @@
+## Release 1.2.1
+
+* 8ade699 bugfix: bump box versions, QA
+* 4cc301f bugfix: QA
+* 594b737 bugfix: update rake
+
 ## Release 1.2.0
 
 * e70e01e [feature] support FreeBSD 10.4, and Ubuntu 18.04 (#5)
