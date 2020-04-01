@@ -1,0 +1,20 @@
+---
+all:
+  hosts:
+    cbsd1.i.trombik.org:
+      vagrant_priority: 20
+      ansible_host: 172.16.100.254
+      ansible_python_interpreter: /usr/local/bin/python3
+  children:
+    cbsd:
+      hosts:
+        cbsd1.i.trombik.org:
+    virtualbox-cbsd:
+      children:
+        cbsd:
+    virtualbox-credentials:
+      children:
+        virtualbox:
+    virtualbox:
+      children:
+        cbsd:

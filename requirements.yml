@@ -1,0 +1,18 @@
+---
+- name: trombik.localtime
+  version: 1.1.0
+- name: trombik.tmux
+- name: trombik.vim
+  version: 1.1.2
+- name: trombik.zsh
+  version: 1.1.1
+- name: trombik.hostname
+  version: 1.0.1
+- name: trombik.hosts
+  version: 2.0.1
+- name: trombik.git
+  version: 1.1.2
+- name: trombik.cbsd
+  version: 1.0.0
+- name: trombik.freebsd_kld
+  version: 1.0.1
