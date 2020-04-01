@@ -9,6 +9,47 @@ operations, such as deploying and testing. Available targets can be shown by:
 bundle exec rake -T
 ```
 
+## Hosts
+
+### `staging` environment
+
+| Host                        | Description                       |
+|-----------------------------|-----------------------------------|
+| `cbsd.i.trombik.org`        | The `cbsd` host                   |
+
+### `prod` environment
+
+TBW
+
+| Host                        | Description                       |
+|-----------------------------|-----------------------------------|
+
+## `cbsd` cheat sheet
+
+Install `base`
+
+```
+cbsd repo action=get sources=base
+```
+
+Install different `base` from the host
+
+```
+cbsd repo action=get sources=base ver=11.3-RELEASE
+```
+
+Create a jail with dialog.
+
+```
+cbsd jconstruct-tui
+```
+
+Create a jail from a file.
+
+```
+cbsd jcreate jconf=/usr/local/jails/ftmp/j1.8961.jconf
+```
+
 ## Environments
 
 The project has two environments. To choose environment, set
