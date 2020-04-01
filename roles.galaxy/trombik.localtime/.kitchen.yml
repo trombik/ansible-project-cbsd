@@ -20,7 +20,7 @@ provisioner:
     - filter_plugins
 
 platforms:
-  - name: freebsd-10.3-amd64
+  - name: freebsd-10.4-amd64
     driver:
       box: trombik/ansible-freebsd-10.3-amd64
       box_check_update: false
@@ -72,6 +72,11 @@ platforms:
   - name: ubuntu-16.04-amd64
     driver:
       box: trombik/ansible-ubuntu-16.04-amd64
+      box_check_update: false
+
+  - name: ubuntu-18.04-amd64
+    driver:
+      box: trombik/ansible-ubuntu-18.04-amd64
       box_check_update: false
 
   - name: centos-7.3-x86_64
