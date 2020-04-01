@@ -1,6 +1,6 @@
-# Internal WWW server
+# `cbsd` host at `i.trombik.org`
 
-This project manages a WWW server at `i.trombik.org`.
+This project manages a `cbsd` server at `i.trombik.org`.
 
 The project is managed by a `Rakefile`, which provides most of common
 operations, such as deploying and testing. Available targets can be shown by:
